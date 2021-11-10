@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaWebVuelos", "SistemaWebVuelos\SistemaWebVuelos.csproj", "{FBDBF08C-C4B7-4CED-899D-21262AB69CAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBDBF08C-C4B7-4CED-899D-21262AB69CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBDBF08C-C4B7-4CED-899D-21262AB69CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBDBF08C-C4B7-4CED-899D-21262AB69CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBDBF08C-C4B7-4CED-899D-21262AB69CAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B9F3118-D006-4DDF-A1CA-05AC0461749A}
+	EndGlobalSection
+EndGlobal

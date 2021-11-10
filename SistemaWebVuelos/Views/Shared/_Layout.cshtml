@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/main.css" rel="stylesheet" />
+
+</head>
+<body>
+    <header>
+        <h1>SISTEMA VUELOS</h1>
+    </header>
+    <nav>
+        <p class="link">@Html.ActionLink("HOME", "Index", "Home")</p>
+        <p class="link">@Html.ActionLink("VUELOS", "Index", "Vuelo")</p>
+    </nav>
+    <main>
+        <aside>
+            @if (IsSectionDefined("aside"))
+            {
+                @RenderSection("aside")
+            }
+            else
+            {
+                <img src="~/Images/avion1.jpg" />
+                <img src="~/Images/avion2.jpg" />
+            }
+        </aside>
+        <section class="content">
+            @RenderBody()
+        </section>
+    </main>
+    <footer>
+        <h3>Info@vuelo.com</h3>
+    </footer>
+</body>
+</html>
